@@ -46,7 +46,7 @@
         url = [NSURL URLWithString:urlString];
     }
     
-    NSArray *activityItems = [[NSArray alloc] initWithObjects:text, image, url, nil];
+    NSArray *activityItems = [[NSArray alloc] initWithObjects:text, url, image, nil];
     
     UIActivity *activity = [[UIActivity alloc] init];
     
